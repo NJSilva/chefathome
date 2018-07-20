@@ -1,0 +1,17 @@
+
+#entradas , #principal , #postres{
+    margin: auto;
+    display:block;
+}
+
+.textoTitulo{
+    font-size: 2vw;
+}
+
+.tipoPlato{
+    font-size: 3vw;
+}
+
+.tipoPlatoSeleccionado{
+    font-size: 2vw;
+}
