@@ -30,15 +30,15 @@
 }
 
 #platoEntrada{
-    background-image: url("../imagenes/entradas/salad-960.jpg");
+    background-image: url("../imagenes/entradas/salad-480.jpg");
 }
 
 #platoPrincipal{
-    background-image: url("../imagenes/principal/asparagus-2169305_960.jpg");
+    background-image: url("../imagenes/principal/asparagus-2169305_480.jpg");
 }
 
 #platoPostre{
-    background-image: url("../imagenes/postre/cake-1971552_960.jpg");
+    background-image: url("../imagenes/postre/cake-1971552_480.jpg");
 }
 
 .row {
