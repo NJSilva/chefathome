@@ -4,7 +4,7 @@
     <head>
         <title>Chef at Home</title>
         <!-- Required meta tags -->
-        <meta charset="utf-8">
+        <meta charset="utf-8"/>
 
         <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
         sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
@@ -13,10 +13,12 @@
 
         <!-- CSS -->
         <!--Bootstrap CSS-->
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        
         <!--CSS Propio-->
-        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css">
 
+        <!-- Fuentes -->
         <link href="https://fonts.googleapis.com/css?family=Ruluko" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -26,19 +28,24 @@
         <!--<script src="js/popper.min.js"></script>-->
         <!--<script src="js/bootstrap.js"></script>-->
         <script src="js/bootstrap.bundle.js"></script>
+
     </head>
     <body>
+
         <div class="container-fluid">
-            <header>
-                <!-- Solo debe aparecer en celular -->
+
+
+            <header id="header">
                 <div class="row">
                     <div class="col text-center">
+                        <div class="menu">
+                            <img src="iconos/menu.png" alt=""/>
+                        </div>
                         <p class="textoTitulo">Chef at Home</p>
+                        <hr>
                     </div>
                 </div>
             </header>
-
-            <hr>
 
 
             <div id="platoEntrada" class="row">
@@ -53,7 +60,7 @@
                             </div>
                         </div>
                         <div class="col"></div>
-                        <div class="col-1"><p><strong class="cantidadSeleccion">0</strong></p></div>
+                        <div class="col-2"><p><strong class="cantidadSeleccion">0</strong></p></div>
                     </div>
                 </div>
             </div>
@@ -72,13 +79,13 @@
                             </div>
                         </div>
                         <div class="col"></div>
-                        <div class="col-1"><p><strong class="cantidadSeleccion">0</strong></p></div>
+                        <div class="col-2"><p><strong class="cantidadSeleccion">0</strong></p></div>
                     </div>
                 </div>
             </div>
 
             <hr>
-            
+
             <div id="platoPostre" class="row">
 
                 <div class="col fondoOpaco">
@@ -92,11 +99,11 @@
                             </div>
                         </div>
                         <div class="col"></div>
-                        <div class="col-1"><p><strong class="cantidadSeleccion">0</strong></p></div>
+                        <div class="col-2"><p><strong class="cantidadSeleccion">0</strong></p></div>
                     </div>
                 </div>
             </div>
-
+        </div>
     </body>
 
 </html>
