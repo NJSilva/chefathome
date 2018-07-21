@@ -54,6 +54,10 @@
 .cajaIcono{
     width: 90px;
 }
+
+.cajaIconoSeleccion{
+    width: 100%;
+}
 .iconos{
     padding-top: 20px;
     margin: 0 auto;
