@@ -130,15 +130,21 @@
 
             <div class="row">
                 <div class="col">
-                    <button type="button" class="btn btn-success btn-block">Siguiente</button>
+                    <button id="siguiente" type="button" class="btn btn-success btn-block">Siguiente</button>
                 </div>
             </div>
 
         </div>
 
 
-    </div>  
+ 
+    <script>
 
+        $("#siguiente").click(function () {
+            window.location.href = "seleccion.html";
+        });
+
+    </script>
 </body>
 
 </html>
