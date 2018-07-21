@@ -1,17 +1,62 @@
-
-#entradas , #principal , #postres{
-    margin: auto;
-    display:block;
-}
-
 .textoTitulo{
     font-size: 2vw;
+    font-family: 'Ruluko', sans-serif;
 }
 
 .tipoPlato{
     font-size: 3vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 .tipoPlatoSeleccionado{
     font-size: 2vw;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#platoEntrada,#platoPrincipal,#platoPostre{
+    height: 300px;
+    min-height: 300px;
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#platoEntrada{
+    background-image: url("../imagenes/entradas/salad-652503_1920.jpg");
+}
+
+#platoPrincipal{
+    background-image: url("../imagenes/principal/asparagus-2169305_1920.jpg");
+}
+
+#platoPostre{
+    background-image: url("../imagenes/postre/cake-1971552_1920.jpg");
+}
+
+.row {
+  display: flex;
+  align-items: flex-end;
+}
+
+.fondoOpaco{ 
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 90px;
+}
+
+.cajaIcono{
+    width: 90px;
+}
+.iconos{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 30px;
+}
+
+.textoIconos{
+    text-align: center;
+}
+
+.cantidadSeleccion{
+    font-size: 2rem;
 }
