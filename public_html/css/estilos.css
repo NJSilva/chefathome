@@ -72,5 +72,6 @@
     font-size: 2rem;
 }
 
-.divEntradas{
+#hora , #fecha{
+    margin: 0 auto;
 }
